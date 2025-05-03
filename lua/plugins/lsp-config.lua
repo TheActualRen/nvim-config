@@ -15,6 +15,7 @@ return {
 					"pyright",
 					"html",
 					"cssls",
+          "ts_ls"
 				},
 			})
 		end,
@@ -31,6 +32,7 @@ return {
 				"pyright",
 				"html",
 				"cssls",
+        "ts_ls"
 			}
 
 			for _, server in ipairs(servers) do

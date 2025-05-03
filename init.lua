@@ -15,6 +15,9 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+vim.o.laststatus = 0 -- Hides the native status line
+vim.o.cmdheight = 0 -- Hides the command line unless needed
+
 require("functions")
 require("vim-options")
 require("lazy").setup("plugins")
