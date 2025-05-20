@@ -1,0 +1,6 @@
+# Ignore Lua language server config
+.luarc.json
+
+# Ignore Lazy.nvim lockfile
+lazy-lock.json
+
